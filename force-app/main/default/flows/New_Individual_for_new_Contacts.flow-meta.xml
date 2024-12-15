@@ -47,7 +47,7 @@
             <processMetadataValues>
                 <name>objectType</name>
                 <value>
-                    <stringValue/>
+                    <stringValue></stringValue>
                 </value>
             </processMetadataValues>
             <processMetadataValues>
@@ -89,7 +89,7 @@
             <processMetadataValues>
                 <name>objectType</name>
                 <value>
-                    <stringValue/>
+                    <stringValue></stringValue>
                 </value>
             </processMetadataValues>
             <processMetadataValues>
@@ -137,12 +137,12 @@
         <processMetadataValues>
             <name>originalFormula</name>
             <value>
-                <stringValue>[Contact].FirstName +&#39;, &#39;+[Contact].LastName </stringValue>
+                <stringValue>[Contact].FirstName +&apos;, &apos;+[Contact].LastName </stringValue>
             </value>
         </processMetadataValues>
         <name>formula_2_myRule_1_A1_1872735120</name>
         <dataType>String</dataType>
-        <expression>{!myVariable_current.FirstName} +&#39;, &#39;+{!myVariable_current.LastName}</expression>
+        <expression>{!myVariable_current.FirstName} +&apos;, &apos;+{!myVariable_current.LastName}</expression>
     </formulas>
     <formulas>
         <name>formula_myRule_1</name>

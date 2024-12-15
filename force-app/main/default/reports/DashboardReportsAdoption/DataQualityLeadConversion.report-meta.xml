@@ -54,7 +54,7 @@
             <column>OPP_NAME</column>
             <isUnlocked>false</isUnlocked>
             <operator>notEqual</operator>
-            <value/>
+            <value></value>
         </criteriaItems>
         <language>en_US</language>
     </filter>

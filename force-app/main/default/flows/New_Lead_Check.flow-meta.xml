@@ -105,7 +105,7 @@
                 <leftValueReference>myVariable_current.Email</leftValueReference>
                 <operator>NotEqualTo</operator>
                 <rightValue>
-                    <stringValue>&#39;&#39;</stringValue>
+                    <stringValue>&apos;&apos;</stringValue>
                 </rightValue>
             </conditions>
             <connector>

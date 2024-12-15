@@ -152,7 +152,7 @@
             <drillToDetailEnabled>false</drillToDetailEnabled>
             <enableHover>false</enableHover>
             <expandOthers>false</expandOthers>
-            <footer>Do you rate your account? Will assist in identifying which accounts don&#39;t have key pieces of data, such as Rating.</footer>
+            <footer>Do you rate your account? Will assist in identifying which accounts don&apos;t have key pieces of data, such as Rating.</footer>
             <groupingSortProperties/>
             <header>Accounts Missing Rating</header>
             <legendPosition>Bottom</legendPosition>

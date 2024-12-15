@@ -4,7 +4,7 @@
     <backgroundFadeDirection>TopToBottom</backgroundFadeDirection>
     <backgroundStartColor>#FFFFFF</backgroundStartColor>
     <dashboardType>SpecifiedUser</dashboardType>
-    <description>This dashboard shows how a Company can analyse Sales Rep&#39;s activity rates and types.</description>
+    <description>This dashboard shows how a Company can analyse Sales Rep&apos;s activity rates and types.</description>
     <isGridLayout>false</isGridLayout>
     <leftSection>
         <columnSize>Medium</columnSize>

@@ -187,6 +187,7 @@
         <fields>UnitPrice</fields>
         <fields>ServiceDate</fields>
         <fields>Description</fields>
+        <fields>Opportunity</fields>
         <relatedList>OpportunityLineItem.Contract__c</relatedList>
     </relatedLists>
     <relatedObjects>AccountId</relatedObjects>

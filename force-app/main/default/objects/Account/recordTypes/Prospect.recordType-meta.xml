@@ -38,6 +38,13 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>Brand__c</picklist>
+        <values>
+            <fullName>SEAT</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>CustomerPriority__c</picklist>
         <values>
             <fullName>High</fullName>
@@ -279,6 +286,25 @@
         </values>
         <values>
             <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Vaccine_Name__c</picklist>
+        <values>
+            <fullName>AstraZeneca</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Moderna</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pfizer</fullName>
             <default>false</default>
         </values>
     </picklistValues>

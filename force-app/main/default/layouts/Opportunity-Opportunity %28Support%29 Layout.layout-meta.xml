@@ -347,6 +347,8 @@
         <fields>ACCOUNT.NAME</fields>
         <fields>PARTNER.ROLE</fields>
         <fields>PARTNER.PRIMARY</fields>
+        <fields>ACCOUNT.PC_TITLE</fields>
+        <fields>ACCOUNT.PC_EMAIL</fields>
         <relatedList>RelatedPartnerList</relatedList>
     </relatedLists>
     <relatedLists>
@@ -364,6 +366,12 @@
         <fields>QUOTE.TOTALPRICE</fields>
         <fields>CreatedBy</fields>
         <relatedList>RelatedQuoteList</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>MemberName</fields>
+        <fields>OppAccessLevel</fields>
+        <fields>TeamMemberRole</fields>
+        <relatedList>RelatedOpportunitySalesTeam</relatedList>
     </relatedLists>
     <relatedObjects>AccountId</relatedObjects>
     <showEmailCheckbox>false</showEmailCheckbox>

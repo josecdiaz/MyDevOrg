@@ -152,6 +152,7 @@
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
     <label>Commission Agreement</label>
     <nameField>
         <label>Commission Agreement Name</label>
@@ -159,7 +160,7 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Commission Agreements</pluralLabel>
-    <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
+    <searchLayouts></searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

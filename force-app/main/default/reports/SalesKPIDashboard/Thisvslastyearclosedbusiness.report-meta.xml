@@ -45,7 +45,7 @@
         <field>CREATED_DATE</field>
     </columns>
     <currency>USD</currency>
-    <description>Compare actual sales to last year&#39;s sales volumes</description>
+    <description>Compare actual sales to last year&apos;s sales volumes</description>
     <filter>
         <criteriaItems>
             <column>FULL_NAME</column>

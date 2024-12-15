@@ -255,6 +255,8 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
+    <externalSharingModel>Read</externalSharingModel>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
     <searchLayouts>
         <customTabListAdditionalFields>FULL_NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>LEAD.COMPANY</customTabListAdditionalFields>
@@ -274,5 +276,5 @@
         <searchResultsAdditionalFields>LEAD.STATUS</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>ReadWriteTransfer</sharingModel>
+    <sharingModel>Read</sharingModel>
 </CustomObject>

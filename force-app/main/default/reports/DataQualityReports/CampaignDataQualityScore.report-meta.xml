@@ -40,7 +40,7 @@
     <name>Campaign Data Quality Score</name>
     <params>
         <name>scopeid</name>
-        <value/>
+        <value></value>
     </params>
     <params>
         <name>co</name>

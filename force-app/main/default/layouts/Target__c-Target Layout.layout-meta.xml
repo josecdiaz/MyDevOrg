@@ -79,6 +79,7 @@
         <fields>UnitPrice</fields>
         <fields>ServiceDate</fields>
         <fields>Description</fields>
+        <fields>Opportunity</fields>
         <relatedList>OpportunityLineItem.Target__c</relatedList>
     </relatedLists>
     <relatedLists>

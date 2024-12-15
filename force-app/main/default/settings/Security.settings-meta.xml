@@ -1,16 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SecuritySettings xmlns="http://soap.sforce.com/2006/04/metadata">
+<SecuritySettings xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <canUsersGrantLoginAccess>true</canUsersGrantLoginAccess>
-    <enableAdminLoginAsAnyUser>false</enableAdminLoginAsAnyUser>
+    <enableAdminLoginAsAnyUser>true</enableAdminLoginAsAnyUser>
     <enableAuditFieldsInactiveOwner>false</enableAuditFieldsInactiveOwner>
-    <enableAuraSecureEvalPref>false</enableAuraSecureEvalPref>
+    <enableAuraSecureEvalPref>true</enableAuraSecureEvalPref>
     <enableRequireHttpsConnection>true</enableRequireHttpsConnection>
-    <isTLSv12Required>false</isTLSv12Required>
-    <isTLSv12RequiredCommunities>false</isTLSv12RequiredCommunities>
-    <networkAccess/>
+    <isTLSv12Required xsi:nil="true"/>
+    <isTLSv12RequiredCommunities xsi:nil="true"/>
+    <networkAccess>
+        <ipRanges>
+            <end>100.21.209.24</end>
+            <start>100.21.209.24</start>
+        </ipRanges>
+        <ipRanges>
+            <end>52.43.33.118</end>
+            <start>52.43.33.118</start>
+        </ipRanges>
+        <ipRanges>
+            <end>44.230.180.227</end>
+            <start>44.230.180.227</start>
+        </ipRanges>
+        <ipRanges>
+            <end>44.225.154.211</end>
+            <start>44.225.154.211</start>
+        </ipRanges>
+    </networkAccess>
     <passwordPolicies>
         <complexity>AlphaNumeric</complexity>
-        <enableSetPasswordInApi>true</enableSetPasswordInApi>
         <expiration>NinetyDays</expiration>
         <historyRestriction>3</historyRestriction>
         <lockoutInterval>FifteenMinutes</lockoutInterval>
@@ -22,7 +38,7 @@
     </passwordPolicies>
     <sessionSettings>
         <allowUserAuthenticationByCertificate>false</allowUserAuthenticationByCertificate>
-        <canConfirmEmailChangeInLightningCommunities>false</canConfirmEmailChangeInLightningCommunities>
+        <canConfirmEmailChangeInLightningCommunities>true</canConfirmEmailChangeInLightningCommunities>
         <disableTimeoutWarning>false</disableTimeoutWarning>
         <enableCSPOnEmail>true</enableCSPOnEmail>
         <enableCSRFOnGet>true</enableCSRFOnGet>
@@ -38,25 +54,19 @@
         <enablePostForSessions>false</enablePostForSessions>
         <enableSMSIdentity>true</enableSMSIdentity>
         <enableU2F>false</enableU2F>
-        <enableUpgradeInsecureRequests>true</enableUpgradeInsecureRequests>
-        <enableXssProtection>true</enableXssProtection>
         <enforceIpRangesEveryRequest>false</enforceIpRangesEveryRequest>
         <forceLogoutOnSessionTimeout>true</forceLogoutOnSessionTimeout>
         <forceRelogin>true</forceRelogin>
         <hasRetainedLoginHints>false</hasRetainedLoginHints>
         <hasUserSwitching>true</hasUserSwitching>
-        <hstsOnForcecomSites>false</hstsOnForcecomSites>
         <identityConfirmationOnEmailChange>false</identityConfirmationOnEmailChange>
         <identityConfirmationOnTwoFactorRegistrationEnabled>true</identityConfirmationOnTwoFactorRegistrationEnabled>
         <lockSessionsToDomain>true</lockSessionsToDomain>
         <lockSessionsToIp>false</lockSessionsToIp>
         <lockerServiceCSP>true</lockerServiceCSP>
-        <lockerServiceFrozenRealm>false</lockerServiceFrozenRealm>
         <redirectionWarning>false</redirectionWarning>
         <referrerPolicy>true</referrerPolicy>
         <requireHttpOnly>false</requireHttpOnly>
-        <requireHttps>true</requireHttps>
-        <securityCentralKillSession>true</securityCentralKillSession>
         <sessionTimeout>TwoHours</sessionTimeout>
     </sessionSettings>
     <singleSignOnSettings>

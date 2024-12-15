@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Org_Case_Hierarchy</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.SITE</columns>
+    <columns>ASSET.INSTALL_DATE</columns>
+    <columns>ASSET.NAME</columns>
+    <columns>ASSET.SERIAL_NUMBER</columns>
+    <columns>CASES.CURRENCY_ISO_CODE</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <filterScope>Everything</filterScope>
+    <label>Org_Case_Hierarchy</label>
+</ListView>

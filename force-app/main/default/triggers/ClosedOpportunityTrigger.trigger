@@ -9,6 +9,6 @@ trigger ClosedOpportunityTrigger on Opportunity (after insert, after update) {
         }
     }
     if(tskList.size() > 0){
-    	insert tskList;        
+        insert tskList;        
     }
 }

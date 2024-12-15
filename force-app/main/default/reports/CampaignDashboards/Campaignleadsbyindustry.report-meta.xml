@@ -28,7 +28,7 @@
     <name>Campaign leads by industry</name>
     <params>
         <name>scopeid</name>
-        <value/>
+        <value></value>
     </params>
     <params>
         <name>co</name>

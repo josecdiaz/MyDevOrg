@@ -152,6 +152,7 @@
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
     <label>Target</label>
     <nameField>
         <label>Target Name</label>
@@ -159,7 +160,7 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Targets</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts></searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

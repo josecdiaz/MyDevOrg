@@ -44,6 +44,18 @@
                 <behavior>Required</behavior>
                 <field>CurrencyIsoCode</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>VIN__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Last_Maintenance_Milage__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Last_Maintenance_Age__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -149,6 +161,14 @@
     </relatedLists>
     <relatedLists>
         <relatedList>RelatedNoteList</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <relatedList>Car_Maintenance_Plan__c.Asset__c</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <relatedList>Maintenance_Plan_Entry__c.Asset__c</relatedList>
     </relatedLists>
     <relatedObjects>AccountId</relatedObjects>
     <relatedObjects>ContactId</relatedObjects>

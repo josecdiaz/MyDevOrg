@@ -11,4 +11,6 @@
     <tabs>JoseObject__c</tabs>
     <tabs>Target__c</tabs>
     <tabs>Feedback__c</tabs>
+    <tabs>CustomObject__c</tabs>
+    <tabs>TestUpdate__c</tabs>
 </CustomApplication>

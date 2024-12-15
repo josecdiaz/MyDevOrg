@@ -10,12 +10,12 @@
                 <behavior>Required</behavior>
                 <field>Name</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>Account__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>OwnerId</field>
-            </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>CurrencyIsoCode</field>
@@ -79,6 +79,7 @@
         <fields>UnitPrice</fields>
         <fields>ServiceDate</fields>
         <fields>Description</fields>
+        <fields>Opportunity</fields>
         <relatedList>OpportunityLineItem.Commission_Agreement__c</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>

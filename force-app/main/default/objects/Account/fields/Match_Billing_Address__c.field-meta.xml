@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Match_Billing_Address__c</fullName>
     <defaultValue>false</defaultValue>
-    <description>With &#39;AccountAddressTrigger&#39; active, if an Account has a Billing Postal Code and &#39;Match_Billing_Address__c&#39; is true, the record should have the Shipping Postal Code set to match on insert or update.</description>
+    <description>With &apos;AccountAddressTrigger&apos; active, if an Account has a Billing Postal Code and &apos;Match_Billing_Address__c&apos; is true, the record should have the Shipping Postal Code set to match on insert or update.</description>
     <externalId>false</externalId>
     <label>Match Billing Address</label>
     <trackFeedHistory>false</trackFeedHistory>

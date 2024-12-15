@@ -56,7 +56,7 @@
     <name>Campaign leads generated per month</name>
     <params>
         <name>scopeid</name>
-        <value/>
+        <value></value>
     </params>
     <params>
         <name>co</name>

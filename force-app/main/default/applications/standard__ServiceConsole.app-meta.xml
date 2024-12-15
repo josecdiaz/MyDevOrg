@@ -184,7 +184,12 @@
     <tabs>JoseObject__c</tabs>
     <tabs>Target__c</tabs>
     <tabs>Feedback__c</tabs>
+    <tabs>CustomObject__c</tabs>
+    <tabs>TestUpdate__c</tabs>
     <workspaceConfig>
+        <mappings>
+            <tab>CustomObject__c</tab>
+        </mappings>
         <mappings>
             <tab>Feedback__c</tab>
         </mappings>
@@ -196,6 +201,9 @@
         </mappings>
         <mappings>
             <tab>Target__c</tab>
+        </mappings>
+        <mappings>
+            <tab>TestUpdate__c</tab>
         </mappings>
         <mappings>
             <tab>standard-Account</tab>

@@ -1,2 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata"/>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Cannot_register_individuals_for_the_event_that_has_already_ended</fullName>
+        <categories>Error Message, Event Registration</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Cannot register individuals for the event that has already ended.</shortDescription>
+        <value>You cannot register individuals for the event that has already ended.</value>
+    </labels>
+    <labels>
+        <fullName>Event_Registration_Fail</fullName>
+        <categories>Event Registration</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Event_Registration_Fail</shortDescription>
+        <value>There has been an error while creating the event registration. 
+
+Administrator of your org has been has been notified.</value>
+    </labels>
+    <labels>
+        <fullName>Event_Registration_Reminder_Error</fullName>
+        <categories>Error Message, Event Registration</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Event_Registration_Reminder_Error</shortDescription>
+        <value>Reminder date cannot be in the past</value>
+    </labels>
+    <labels>
+        <fullName>Event_Registration_Success</fullName>
+        <categories>Event Registration</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Event_Registration_Success</shortDescription>
+        <value>Event Registration has been successfully created.</value>
+    </labels>
+    <labels>
+        <fullName>Github_username</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Github username</shortDescription>
+        <value>trailheadapps</value>
+    </labels>
+    <labels>
+        <fullName>Inventory_Level_Low</fullName>
+        <categories>constants</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Inventory Level Low</shortDescription>
+        <value>Has a low inventory</value>
+    </labels>
+    <labels>
+        <fullName>Select_One</fullName>
+        <categories>constants</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Select One</shortDescription>
+        <value>Select one</value>
+    </labels>
+</CustomLabels>
